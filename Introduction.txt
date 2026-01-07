@@ -1,0 +1,35 @@
+Automation -> Java
+
+Lecture ->  M,W,F -> 11:30 to 1:00
+Practice -> T,T,S -> Flexible time
+
+System -> tops?123
+Admin -> Password123
+Wifi -> tops@0987
+
+Github
+1)drag & drop
+2)git cmd
+3)github desktop software
+
+
+Github link -> 
+Tops Career Center -> 
+
+Setup:
+
+1. Download JDK:
+https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.exe (sha256 )
+
+2. Download Eclipse:
+https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2025-09/R/eclipse-jee-2025-09-R-win32-x86_64.zip
+
+path : C:\Program Files\Java\jdk-17\bin
+
+
+
+
+
+
+
+
