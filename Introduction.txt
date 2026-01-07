@@ -26,6 +26,13 @@ https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/re
 
 path : C:\Program Files\Java\jdk-17\bin
 
+3. github desktop software:
+https://desktop.github.com/download/
+
+4.git cmd:
+https://git-scm.com/install/
+
+
 
 
 
