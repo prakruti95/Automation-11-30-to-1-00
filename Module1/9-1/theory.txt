@@ -1,0 +1,45 @@
+1.Install JDK
+
+2.Set the Path of JDK
+
+JDK -> Java Development Kit
+
+3.
+Path : C:\Program Files\Java\jdk-17\bin
+
+Search Environment Variables -> Path -> edit your path
+->paste path -> click on OK
+
+4.
+Open your cmd 
+
+javac
+java --version
+
+JDK -> Java Development Kit [Compiler]
+JRE -> Java Runtime Environment [System Library]
+JVM -> Java Virtual Machine
+
+-> Every Program's execution will start with main method
+
+void main()
+{
+
+}
+
+void -> Null value will return
+main -> method name
+public-> 
+static -> fix 
+
+1.Arithmetic Op
+c=a+b
+d=e-f
+
+2.Shorthand Op
+a=a+b
+
+3.Relational Op
+<,>,<=,>=,==,!=
+
+
