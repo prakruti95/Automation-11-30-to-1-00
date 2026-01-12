@@ -1,0 +1,13 @@
+8. Write a Program to check the given number is Positive, Negative.
+
+9. Write a Program to check the given year is leap year or not.
+
+10. Write a Program to check the given number is prime or not prime.
+
+17. Write Program use switch statement. Display Monday to Sunday
+
+18. Write a Program of Addition, Subtraction ,Multiplication and Division using
+switch(Must Be Menu Driven)
+
+19. Write a program of to find out the Area of Triangle, Rectangle and Circle
+using If Condition.(Must Be Menu Driven)

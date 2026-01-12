@@ -1,0 +1,27 @@
+conditional statement:
+if
+else
+else if
+nested if
+switch-case-break
+
+-> if you will run same program via CMD
+
+javac filename.java
+java filename
+
+-> User input
+Class - Scanner
+
+classname objname = new classname();
+Scanner   sc      = new Scanner(); 
+
+Scanner sc = new Scanner();
+
+
+
+
+
+
+
+
