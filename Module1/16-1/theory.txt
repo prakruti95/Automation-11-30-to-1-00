@@ -1,0 +1,119 @@
+main
+
+data type
+
+userinput - Scanner
+import java.util
+
+conditional statement : if,else if,else,switch,case,break
+
+looping statement : for,while,do while
+
+loop: when you want to perform same thing multiple time at that 
+time you are using loop 
+
+Types of loop:
+1)entry control loop : for,while
+2)exit control loop : do while
+
+1) for :
+
+for(initialization;condition;incre/decre)
+{
+	
+}
+
+2) while:
+initialization;
+
+while(condition)
+{
+	statement
+	incre/decre
+}
+
+3) do while:
+initialization;
+
+do
+{
+	statement
+	incre/decre
+}
+while(condition);
+
+
+break
+continue
+
+find the factorial value
+5! = 
+10
+15
+
+	for(int i=1;i<=5;i++)
+		{
+			fact = fact*i;//fact*=i;
+		}
+
+
+
+1)
+num = 1234
+sum=0;
+while(num>0)
+{
+	int rem = num%10; //4
+	sum+=rem;//4
+	num=num/10;//123
+}
+
+2)
+num = 123
+sum=4;
+while(num>0)
+{
+	int rem = num%10; //3
+	sum+=rem;//4+3=7
+	num=num/10;//123/10=12
+}
+
+3)
+num = 12
+sum=7;
+while(num>0)
+{
+	int rem = num%10; //2
+	sum+=rem;//4+3=7+2=9
+	num=num/10;//12/10=1
+}
+
+4)
+num = 1
+sum=9;
+while(num>0)
+{
+	int rem = num%10; //1
+	sum+=rem;//4+3=7+2=9+1=10
+	num=num/10;//12/10=1/10=0.1
+}
+5)
+num = 0
+sum=10;
+while(num>0)
+{
+	int rem = num%10; //1
+	sum+=rem;//4+3=7+2=9+1=10
+	num=num/10;//12/10=1/10=0.1
+}
+
+syso(sum);
+
+
+1234
+fidigt
+ldigit
+
+
+
+
