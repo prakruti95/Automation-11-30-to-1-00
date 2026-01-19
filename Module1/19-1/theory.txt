@@ -1,0 +1,76 @@
+1)
+*
+**
+***
+****
+*****
+
+2)
+1
+22
+333
+4444
+55555
+
+3)
+1
+12
+123
+1234
+12345
+
+4)
+A
+BB
+CCC
+DDDD
+EEEEE
+
+5)
+2
+44
+8888
+16161616
+
+6)
+1
+23
+456
+78910
+
+7)
+    *
+   **
+  ***
+ ****
+*****
+
+8)
+A
+AB
+ABC
+ABCD
+ABCDE
+
+Array : Collection of elements that is called an array
+
+Types of Array:
+1)1-d Array
+2)2-d Array
+
+[size]
+
+
+-> you can not chane array's value dynamically 
+-> if you want to do that you have to use arraylist
+-> array's index will start 0.
+
+  0 1 2
+0 1 2 3
+1 4 5 6
+2 7 8 9
+
+
+
+
+
