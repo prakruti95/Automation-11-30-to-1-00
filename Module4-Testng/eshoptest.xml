@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test1">
+    <classes>
+      <class name="eshop.Home"/>
+      <class name="eshop.Payment"/>
+      <class name="eshop.Cart"/>
+    </classes>
+  </test> 
+  
+  <test name="Test2">
+    <classes>
+      <class name="eshop.Payment"/>
+      <class name="eshop.Cart"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
