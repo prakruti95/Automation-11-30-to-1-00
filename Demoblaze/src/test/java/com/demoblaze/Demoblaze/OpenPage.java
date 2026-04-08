@@ -23,21 +23,11 @@ import org.testng.annotations.Test;
 
 public class OpenPage 
 {
-	
-//	@BeforeClass
-//	public void setup() 
-//	{
-//	    System.setProperty("webdriver.chrome.driver", "F:\\chrome-146\\chromedriver.exe");
-//
-//	    ChromeOptions options = new ChromeOptions();
-//	    options.addArguments("--remote-allow-origins=*");
-//
-//	    driver = new ChromeDriver(options);
-//	}
+	WebDriver driver = null;
 	
 	@DataProvider(name = "open")
 	public static Object[][] readExcel() throws InvalidFormatException, IOException {
-		Object[][] data = null;
+		
 
 		String filepath = "D:\\Demoblaze.xlsx"; // only string form path
 
@@ -46,53 +36,46 @@ public class OpenPage
 		XSSFWorkbook workbook = new XSSFWorkbook(file);// to open the excel file
 
 		Sheet sheet = workbook.getSheet("open");// to open the perticular sheet
-
-		int nrows = sheet.getPhysicalNumberOfRows();
-		System.out.println("no of rows are... " + nrows);
-
-		data = new Object[nrows][];
-		for (int i = 0; i < nrows; i++)// row
+		int rows = sheet.getPhysicalNumberOfRows();
+		Object[][] data = new Object[rows][2];
+		
+		for (int i = 0; i < rows; i++) 
 		{
-			Row row = sheet.getRow(i);// ith row is selection
-			int ncols = row.getPhysicalNumberOfCells();
-			System.out.println("no of cols are.. " + ncols);
-			data[i] = new Object[ncols];
-			for (int j = 0; j < ncols; j++)// cols
-			{
-				Cell cell = row.getCell(j);
-				cell.setCellType(CellType.STRING);
-				data[i][j] = cell.getStringCellValue();
-			}
+			Row row = sheet.getRow(i);
+			data[i][0] = row.getCell(0).toString();
+			data[i][1] = row.getCell(1).toString();
 		}
+		
 		return data;
 	}
-
-	WebDriver driver = null;
-	
 	@Test(dataProvider = "open")
-	public void test(String keyword, String data) throws InterruptedException, InvalidFormatException, IOException {
-
-		 if (keyword.equals("enter url")) 
-		    {
-		        driver = MyConnection.connect(data);  // ✅ FIXED
-		        Thread.sleep(2000);
-		    }
-		    else if(keyword.equals("home "))
-		    {
-		        driver.findElement(By.linkText("Home")).click();
-		        Thread.sleep(2000);
-		        HomePage home = new HomePage();
-		        home.homepage(); 
-		    }
-		    else if(keyword.equals("Signup"))
-		    {
-		    	
-		        driver.findElement(By.linkText("Sign up")).click();
-		      
-		        Thread.sleep(2000);
-		        SignupPage signup= new SignupPage();
-		        
-		    }
-		
+	public void test(String keyword, String data) throws Exception 
+	{
+		if (keyword.equalsIgnoreCase("enter url")) 
+		{
+			driver = MyConnection.connect(data);
+			Thread.sleep(2000);
+		}
+		else if (keyword.equalsIgnoreCase("home") && data.equalsIgnoreCase("click"))
+		{
+			driver.findElement(By.linkText("Home")).click();
+			Thread.sleep(2000);
+		}
+//		else if (keyword.equalsIgnoreCase("Signup")) 
+//		{
+//			
+//			SignupPage signup = new SignupPage();
+//			signup.signupTest();
+//		}
+		else if (keyword.equalsIgnoreCase("Login")) 
+		{
+			LoginPage login = new LoginPage();
+			login.loginTest();
+		}
+//		else if (keyword.equalsIgnoreCase("Cart")) 
+//		{
+//			CartPage cart = new CartPage();
+//			//cart.cartFlow();
+//		}
 	}
 }

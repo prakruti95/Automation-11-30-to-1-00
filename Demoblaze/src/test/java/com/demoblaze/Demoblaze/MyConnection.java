@@ -20,4 +20,9 @@ public class MyConnection
 		driver.manage().window().maximize();
 		return driver;
 	}
+	
+	public static WebDriver getDriver() 
+	{
+		return driver;
+	}
 }

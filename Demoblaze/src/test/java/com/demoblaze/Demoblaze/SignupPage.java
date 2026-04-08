@@ -1,78 +1,74 @@
 package com.demoblaze.Demoblaze;
 
 import java.io.File;
-import java.io.IOException;
-
-import org.apache.commons.io.FileUtils;
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
 
 public class SignupPage 
 {
+	WebDriver driver = MyConnection.getDriver();
 
-	@DataProvider(name = "signup")
-	public static Object[][] readExcel() throws InvalidFormatException, IOException {
-		Object[][] data = null;
-
-		String filepath = "D:\\Demoblaze.xlsx"; // only string form path
-
-		File file = new File(filepath); // to make an file
-
-		XSSFWorkbook workbook = new XSSFWorkbook(file);// to open the excel file
-
-		Sheet sheet = workbook.getSheet("signup");// to open the perticular sheet
-
-		int nrows = sheet.getPhysicalNumberOfRows();
-		System.out.println("no of rows are... " + nrows);
-
-		data = new Object[nrows][];
-		for (int i = 0; i < nrows; i++)// row
-		{
-			Row row = sheet.getRow(i);// ith row is selection
-			int ncols = row.getPhysicalNumberOfCells();
-			System.out.println("no of cols are.. " + ncols);
-			data[i] = new Object[ncols];
-			for (int j = 0; j < ncols; j++)// cols
-			{
-				Cell cell = row.getCell(j);
-				cell.setCellType(CellType.STRING);
-				data[i][j] = cell.getStringCellValue();
-			}
-		}
-		return data;
-	}
-
-	WebDriver driver = null;
-	
-	@Test(dataProvider = "signup")
-	public void getdata(String keyword, String data) throws InterruptedException, InvalidFormatException, IOException 
+	public void signupTest() throws Exception 
 	{
+		String filepath = "D:\\Demoblaze.xlsx";
 
-		 if(keyword.equals("Username"))
+		File file = new File(filepath);
+		XSSFWorkbook workbook = new XSSFWorkbook(file);
+		Sheet sheet = workbook.getSheet("signup");
+
+		int rows = sheet.getPhysicalNumberOfRows();
+
+		for (int i = 0; i < rows; i++) 
 		{
-			driver.findElement(By.id("sign-username")).sendKeys(data);
-			Thread.sleep(2000);
+			Row row = sheet.getRow(i);
+
+			// skip empty rows
+			if (row == null || row.getCell(0) == null) 
+				continue;
+
+			String keyword = row.getCell(0).toString().trim();
+			String data = row.getCell(1).toString().trim();
+
+			// ✅ OPEN POPUP FOR EVERY NEW USER
+			if (keyword.equalsIgnoreCase("Username")) 
+			{
+				driver.findElement(By.id("signin2")).click();
+				Thread.sleep(2000);
+
+				driver.findElement(By.id("sign-username")).clear();
+				driver.findElement(By.id("sign-username")).sendKeys(data);
+			}
+
+			else if (keyword.equalsIgnoreCase("Password")) 
+			{
+				driver.findElement(By.id("sign-password")).clear();
+				driver.findElement(By.id("sign-password")).sendKeys(data);
+			}
+
+			else if (keyword.equalsIgnoreCase("Click Signup")) 
+			{
+				driver.findElement(By.xpath("//button[text()='Sign up']")).click();
+				Thread.sleep(2000);
+
+				// ✅ HANDLE ALERT
+				try 
+				{
+					Alert alert = driver.switchTo().alert();
+					System.out.println("Alert Message: " + alert.getText());
+					alert.accept();
+				} 
+				catch (Exception e) 
+				{
+					System.out.println("No alert present");
+				}
+			}
+
+			Thread.sleep(1500);
 		}
-		else if(keyword.equals("Password"))
-		{
-			driver.findElement(By.id("sign-password")).sendKeys(data);
-			Thread.sleep(2000);
-		} 
-		  
-		
+
+		workbook.close();
 	}
 }
