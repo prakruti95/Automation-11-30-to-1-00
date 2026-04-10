@@ -61,17 +61,27 @@ public class OpenPage
 			driver.findElement(By.linkText("Home")).click();
 			Thread.sleep(2000);
 		}
+//		else if (keyword.equalsIgnoreCase("Contact")) 
+//		{
+//			ContactPage contact = new ContactPage();
+//			contact.contactTest();
+//		}
+		else if (keyword.equalsIgnoreCase("About")) 
+		{
+			AboutPage about = new AboutPage();
+			about.aboutTest();
+		}
 //		else if (keyword.equalsIgnoreCase("Signup")) 
 //		{
 //			
 //			SignupPage signup = new SignupPage();
 //			signup.signupTest();
 //		}
-		else if (keyword.equalsIgnoreCase("Login")) 
-		{
-			LoginPage login = new LoginPage();
-			login.loginTest();
-		}
+//		else if (keyword.equalsIgnoreCase("Login")) 
+//		{
+//			LoginPage login = new LoginPage();
+//			login.loginTest();
+//		}
 //		else if (keyword.equalsIgnoreCase("Cart")) 
 //		{
 //			CartPage cart = new CartPage();

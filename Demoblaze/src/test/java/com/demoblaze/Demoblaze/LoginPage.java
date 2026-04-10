@@ -48,7 +48,7 @@ public class LoginPage
 				driver.findElement(By.id("loginpassword")).sendKeys(data);
 			}
 
-			else if (keyword.equalsIgnoreCase("Click Signup")) 
+			else if (keyword.equalsIgnoreCase("Click Login")) 
 			{
 				driver.findElement(By.xpath("//*[@id=\"logInModal\"]/div/div/div[3]/button[2]")).click();
 				Thread.sleep(2000);
@@ -65,6 +65,13 @@ public class LoginPage
 					System.out.println("No alert present");
 				}
 			}
+			else if(keyword.equalsIgnoreCase("Click Logout"))
+			{
+				Thread.sleep(1500);
+				driver.findElement(By.linkText("Log out")).click();
+				Thread.sleep(1500);
+			}
+			
 
 			Thread.sleep(1500);
 		}
