@@ -1,0 +1,12 @@
+Eclipse
+JDK
+Android Studio
+Device Connect
+Appium Server GUI
+Appium Inspector
+Node
+Playstore -> APK Info
+
+
+
+
