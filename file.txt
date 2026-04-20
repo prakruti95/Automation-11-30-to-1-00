@@ -1,0 +1,6 @@
+{
+  "appium:app": "D:\\MyappsTesting\\facebook_lite_v321.0.0.13.113.apk",
+  "appium:deviceName": "vivo V2040",
+  "platformName": "android",
+  "appium:automationName": "UIAutomator2"
+}
