@@ -1,0 +1,102 @@
+[] -> jsonarray
+{} -> jsonobject
+
+
+[
+    {
+        "id": "26",
+        "pname": "keyboard",
+        "pprice": "550",
+        "pdes": "logitech keyboard"
+    },
+    {
+        "id": "27",
+        "pname": "samsung",
+        "pprice": "15000",
+        "pdes": "samsung xyZ"
+    },
+    {
+        "id": "28",
+        "pname": "Vivo v20",
+        "pprice": "20000",
+        "pdes": "Its a camera phone"
+    }
+]
+
+==========================================================
+
+{
+    "heroes": [
+        {
+            "name": "Spiderman",
+            "imageurl": "https://simplifiedcoding.net/demos/view-flipper/images/spiderman.jpg"
+        },
+        {
+            "name": "Iron Man",
+            "imageurl": "https://simplifiedcoding.net/demos/view-flipper/images/ironman.jpg"
+        },
+        {
+            "name": "Thor",
+            "imageurl": "https://simplifiedcoding.net/demos/view-flipper/images/thor.jpg"
+        },
+        {
+            "name": "Wolverine",
+            "imageurl": "https://simplifiedcoding.net/demos/view-flipper/images/wolverine.jpeg"
+        }
+    ]
+}
+==============================================================
+
+{
+	"details:"	
+	[
+		{
+			"id":101,
+			"name":"abcd",
+			"mobile":
+			[
+				{
+					"number":"9999999999"
+				},
+				{
+					"number":"8888888888"
+				},
+			
+			],
+			"address":"rajkot"
+
+		},
+		{
+			"id":101,
+			"name":"abcd",
+			"mobile":
+			[
+				{
+					"number":"9999999999"
+				},
+				{
+					"number":"8888888888"
+				},
+			
+			],
+			"address":"rajkot"
+
+		},
+	{
+			"id":101,
+			"name":"abcd",
+			"mobile":
+			[
+				{
+					"number":"9999999999"
+				},
+				{
+					"number":"8888888888"
+				},
+			
+			],
+			"address":"rajkot"
+
+		}
+	]
+}

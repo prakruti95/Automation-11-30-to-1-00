@@ -1,0 +1,304 @@
+{
+  "info": {
+    "_postman_id": "0438f949-1f3c-4c8c-846c-4fe25edf31e7",
+    "name": "Crud Operation",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "18149675",
+    "_collection_link": "https://go.postman.co/collection/18149675-0438f949-1f3c-4c8c-846c-4fe25edf31e7?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Product Insert",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "pname",
+              "value": "Vivo v20",
+              "type": "text",
+              "uuid": "abfe5e66-dc20-4d8f-9b92-57a99353490d"
+            },
+            {
+              "key": "pprice",
+              "value": "20000",
+              "type": "text",
+              "uuid": "e685c07b-62ff-4b96-a8b5-28921f6b1d84"
+            },
+            {
+              "key": "pdes",
+              "value": "Its a camera phone",
+              "type": "text",
+              "uuid": "9d6f66dc-c5b2-42ad-b54c-04b7b9421a97"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://prakrutitech.xyz/Seminar/insert.php",
+          "protocol": "https",
+          "host": [
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "Seminar",
+            "insert.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Product View",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "pname",
+              "value": "Vivo v20",
+              "type": "text",
+              "uuid": "abfe5e66-dc20-4d8f-9b92-57a99353490d",
+              "disabled": true
+            },
+            {
+              "key": "pprice",
+              "value": "20000",
+              "type": "text",
+              "uuid": "e685c07b-62ff-4b96-a8b5-28921f6b1d84",
+              "disabled": true
+            },
+            {
+              "key": "pdes",
+              "value": "Its a camera phone",
+              "type": "text",
+              "uuid": "9d6f66dc-c5b2-42ad-b54c-04b7b9421a97",
+              "disabled": true
+            },
+            {
+              "key": "pimage",
+              "type": "file",
+              "uuid": "40be7aae-8920-4e4f-9048-152e369acb7d",
+              "src": "/D:/img/login.png",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://prakrutitech.xyz/Seminar/view.php",
+          "protocol": "https",
+          "host": [
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "Seminar",
+            "view.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "extra",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://www.simplifiedcoding.net/demos/view-flipper/heroes.php",
+          "protocol": "https",
+          "host": [
+            "www",
+            "simplifiedcoding",
+            "net"
+          ],
+          "path": [
+            "demos",
+            "view-flipper",
+            "heroes.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Product Update",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "26",
+              "type": "text",
+              "uuid": "db441beb-25e5-4cc6-85c3-c49a24eddbda"
+            },
+            {
+              "key": "pname",
+              "value": "Oppo Reno",
+              "type": "text",
+              "uuid": "3374847a-59d3-4c56-b4e5-29d9123207cf"
+            },
+            {
+              "key": "pprice",
+              "value": "18000",
+              "type": "text",
+              "uuid": "80b74ad1-f8c1-48c0-be32-ebadcddeba41"
+            },
+            {
+              "key": "pdes",
+              "value": "Its a music phone",
+              "type": "text",
+              "uuid": "fcdabe55-399f-4c91-ab95-480de590a93d"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://prakrutitech.xyz/Seminar/update.php?id&pname",
+          "protocol": "https",
+          "host": [
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "Seminar",
+            "update.php"
+          ],
+          "query": [
+            {
+              "key": "id",
+              "value": null,
+              "type": "text"
+            },
+            {
+              "key": "pname",
+              "value": null,
+              "type": "text"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Product Delete",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "id",
+              "value": "26",
+              "type": "text",
+              "uuid": "22839e83-bf41-43c9-9aa8-a6184efe8fcc"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://prakrutitech.xyz/Seminar/delete.php",
+          "protocol": "https",
+          "host": [
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "Seminar",
+            "delete.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Signup User",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "name",
+              "value": "",
+              "type": "text",
+              "uuid": "969d7fd1-fb7d-4872-b399-d38866e5e6fd"
+            },
+            {
+              "key": "surname",
+              "value": "",
+              "type": "text",
+              "uuid": "749fb735-0fb9-41e7-976f-1fce3ef9ecbe"
+            },
+            {
+              "key": "password",
+              "value": "123456",
+              "type": "text",
+              "uuid": "d767f7a3-12af-4d24-ab58-3ab0a22d09bb"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://prakrutitech.xyz/Seminar/signup.php",
+          "protocol": "https",
+          "host": [
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "Seminar",
+            "signup.php"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Signin User",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "e1",
+              "value": "m@gmail.com",
+              "type": "text",
+              "uuid": "2c798b2f-f75c-4d3c-83fb-74e818fc3b81"
+            },
+            {
+              "key": "p1",
+              "value": "12345678",
+              "type": "text",
+              "uuid": "a9d37b15-e74a-4582-9aa1-9629f3afdb1c"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://prakrutitech.xyz/Seminar/signin.php",
+          "protocol": "https",
+          "host": [
+            "prakrutitech",
+            "xyz"
+          ],
+          "path": [
+            "Seminar",
+            "signin.php"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
