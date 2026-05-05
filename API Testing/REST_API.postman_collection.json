@@ -1,0 +1,108 @@
+{
+  "info": {
+    "_postman_id": "e1fe48a9-0595-43f6-851d-048b68fc1145",
+    "name": "REST_API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "18149675",
+    "_collection_link": "https://go.postman.co/collection/18149675-e1fe48a9-0595-43f6-851d-048b68fc1145?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "User",
+      "item": [
+        {
+          "name": "Register_API",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"fname\":\"arun\",\r\n    \"lname\":\"bhatu\",\r\n    \"email\":\"arun@gmail.com\",\r\n    \"phno\":\"9988998899\",\r\n    \"pass\":\"1234\",\r\n    \"gender\":\"male\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://restapilive.onrender.com/userreg",
+              "protocol": "https",
+              "host": [
+                "restapilive",
+                "onrender",
+                "com"
+              ],
+              "path": [
+                "userreg"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Login_API",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"email\":\"arun@gmail.com\",\r\n    \"pass\":\"123456\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://restapilive.onrender.com/userlogin",
+              "protocol": "https",
+              "host": [
+                "restapilive",
+                "onrender",
+                "com"
+              ],
+              "path": [
+                "userlogin"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Admin",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"email\":\"\",\r\n    \"password\":\"\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://restapilive.onrender.com/alogin",
+              "protocol": "https",
+              "host": [
+                "restapilive",
+                "onrender",
+                "com"
+              ],
+              "path": [
+                "alogin"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
