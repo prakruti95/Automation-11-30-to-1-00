@@ -1,0 +1,139 @@
+{
+  "info": {
+    "_postman_id": "af092b7a-c310-424b-8b2f-32c89f02201e",
+    "name": "MyData",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "18149675",
+    "_collection_link": "https://go.postman.co/collection/18149675-af092b7a-c310-424b-8b2f-32c89f02201e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Admin Login",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"email\":\"admin@gmail.com\",\r\n    \"password\": \"admin\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://restapilive.onrender.com/alogin",
+          "protocol": "https",
+          "host": [
+            "restapilive",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "alogin"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Admin Add Category",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "admin-auth-token",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2ZkYjRmZGNiN2MxNDVhOWNiZjZmZWYiLCJpYXQiOjE3NzgwNDgwMzd9.ZOdIWf14AnURh9ioqGezSFgE-CNucoSIjR3NWcF_v-g",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"catname\":\"Keychain\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://restapilive.onrender.com/addcategory",
+          "protocol": "https",
+          "host": [
+            "restapilive",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "addcategory"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Admin View Category",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "admin-auth-token",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2ZkYjRmZGNiN2MxNDVhOWNiZjZmZWYiLCJpYXQiOjE3NzgwNDgwMzd9.ZOdIWf14AnURh9ioqGezSFgE-CNucoSIjR3NWcF_v-g",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://restapilive.onrender.com/category",
+          "protocol": "https",
+          "host": [
+            "restapilive",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "category"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Admin Delete Category",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "admin-auth-token",
+            "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2M2ZkYjRmZGNiN2MxNDVhOWNiZjZmZWYiLCJpYXQiOjE3NzgwNDgwMzd9.ZOdIWf14AnURh9ioqGezSFgE-CNucoSIjR3NWcF_v-g",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"did\":\"65aba0ab6c1470bf1adaae73\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://restapilive.onrender.com/deletecat",
+          "protocol": "https",
+          "host": [
+            "restapilive",
+            "onrender",
+            "com"
+          ],
+          "path": [
+            "deletecat"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
