@@ -1,0 +1,345 @@
+# SESSION 1 — Revision Notes
+
+## 1. What is Performance Testing?
+
+Performance Testing checks:
+
+* Speed
+* Stability
+* Scalability
+* Reliability
+
+of an application under expected and heavy workloads.
+
+Goal:
+
+* Ensure application performs well under user traffic.
+
+Example:
+
+* Can an e-commerce site handle 10,000 users during a sale?
+
+---
+
+# 2. Why Performance Testing is Needed
+
+Performance testing helps identify:
+
+* Slow response times
+* Server crashes
+* Database bottlenecks
+* Memory leaks
+* Scalability issues
+
+Benefits:
+
+* Better user experience
+* Improved reliability
+* Prevent production failures
+* Validate infrastructure capacity
+
+---
+
+# 3. Types of Performance Testing
+
+---
+
+## A. Load Testing
+
+Checks system behavior under expected user load.
+
+Example:
+
+* 5,000 users browsing products simultaneously.
+
+Purpose:
+
+* Validate normal business traffic handling.
+
+---
+
+## B. Stress Testing
+
+Pushes the system beyond capacity limits.
+
+Example:
+
+* Increasing users until the website crashes.
+
+Purpose:
+
+* Find breaking point.
+
+---
+
+## C. Spike Testing
+
+Sudden increase/decrease in users.
+
+Example:
+
+* Flash sale traffic jump from 1,000 → 50,000 users.
+
+Purpose:
+
+* Check sudden traffic handling.
+
+---
+
+## D. Endurance (Soak) Testing
+
+Run load for long duration.
+
+Example:
+
+* 2,000 users continuously for 24 hours.
+
+Purpose:
+
+* Detect:
+
+  * Memory leaks
+  * Resource exhaustion
+  * Performance degradation
+
+---
+
+## E. Scalability Testing
+
+Checks how system scales when resources/users increase.
+
+Example:
+
+* Add servers and observe throughput improvement.
+
+Purpose:
+
+* Capacity planning.
+
+---
+
+# 4. Functional vs Performance Testing
+
+| Functional Testing   | Performance Testing        |
+| -------------------- | -------------------------- |
+| Checks correctness   | Checks speed/stability     |
+| Validates features   | Validates performance      |
+| Example: Login works | Example: Login under 5 sec |
+| Focus on behavior    | Focus on efficiency        |
+
+---
+
+# 5. Key Performance Metrics
+
+---
+
+## A. Response Time
+
+Time taken for request → response.
+
+Example:
+
+* Login API responds in 2 sec.
+
+Target:
+
+* Usually < 3 sec.
+
+---
+
+## B. Throughput
+
+Amount of data/requests processed.
+
+Measured as:
+
+* Requests/sec
+* Transactions/sec
+
+Higher throughput = better performance.
+
+---
+
+## C. TPS (Transactions Per Second)
+
+Number of completed business transactions per second.
+
+Example:
+
+* 500 checkout transactions/sec.
+
+---
+
+## D. Error Rate
+
+Percentage of failed requests.
+
+Formula:
+
+\text{Error Rate} = \frac{\text{Failed Requests}}{\text{Total Requests}} \times 100
+
+Goal:
+
+* Keep near 0%.
+
+---
+
+## E. Latency
+
+Delay before request processing begins.
+
+Difference:
+
+* Response Time = Total completion time
+* Latency = Initial waiting delay
+
+---
+
+# Practical: E-Commerce Performance Test Scenarios
+
+## Scenario 1 — User Login Load Test
+
+Test:
+
+* 5,000 users login simultaneously.
+
+Metrics:
+
+* Response time
+* Authentication failures
+
+---
+
+## Scenario 2 — Product Search
+
+Test:
+
+* Thousands of concurrent searches.
+
+Check:
+
+* Search speed
+* Database performance
+
+---
+
+## Scenario 3 — Add to Cart
+
+Test:
+
+* Multiple users updating carts.
+
+Check:
+
+* Session handling
+* Cart consistency
+
+---
+
+## Scenario 4 — Checkout Process
+
+Critical scenario.
+
+Test:
+
+* Concurrent payments/orders.
+
+Check:
+
+* TPS
+* Payment success rate
+* DB transactions
+
+---
+
+## Scenario 5 — Flash Sale Spike Test
+
+Test:
+
+* Sudden traffic surge.
+
+Example:
+
+* Big Billion Day / Amazon sale.
+
+Check:
+
+* Auto scaling
+* Server crash behavior
+
+---
+
+## Scenario 6 — Endurance Test
+
+Test:
+
+* Continuous traffic for 12–24 hours.
+
+Check:
+
+* Memory leaks
+* CPU stability
+* DB connections
+
+---
+
+# Interview Questions from Session 1
+
+### Q1. Difference between Load and Stress Testing?
+
+* Load = expected traffic
+* Stress = beyond limits
+
+---
+
+### Q2. What is Throughput?
+
+* Number of requests/transactions processed over time.
+
+---
+
+### Q3. What is TPS?
+
+* Transactions completed per second.
+
+---
+
+### Q4. Why is performance testing important?
+
+* Prevent crashes and ensure scalability.
+
+---
+
+# Next Step Recommendation
+
+Your next learning sequence should be:
+
+1. JMeter Architecture
+2. Thread Group
+3. HTTP Request Sampler
+4. Listeners
+5. Assertions
+6. Correlation
+7. Parameterization
+8. API Performance Testing
+9. Distributed Testing
+10. CI/CD Integration
+
+Steps: 1. Download Java
+java -version
+
+2. Download JMeter
+https://jmeter.apache.org/download_jmeter.cgi
+
+3.
+Set the path of JMeter
+
+4.
+JMETER_HOME : C:\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+Path : %JMETER_HOME%\bin
+
+5. Open C:\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin -> type cmd here
+jmeter.bat
+
+
+
