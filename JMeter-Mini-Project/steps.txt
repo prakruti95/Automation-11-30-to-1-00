@@ -1,0 +1,462 @@
+Apache JMeter Mini Project – Complete Beginner Project
+Project Name
+
+E-Commerce Website Load Testing Project
+
+This mini project will help you learn:
+
+Thread Group
+HTTP Request
+HTTP Header Manager
+CSV Data Set Config
+Assertions
+Timers
+Listeners
+Login Testing
+API Testing
+Load Testing
+Report Generation
+1. Software Required
+Install These Tools
+1. Java JDK
+
+Install Java JDK 8 or above.
+
+Check Installation:
+
+java -version
+2. Apache JMeter
+
+Download Apache JMeter:
+
+https://jmeter.apache.org/download_jmeter.cgi
+
+Extract ZIP file.
+
+Open:
+
+bin/jmeter.bat
+
+(Windows)
+
+or
+
+./jmeter
+
+(Linux/Kali)
+
+2. Project Scenario
+
+We will test a fake online store API:
+
+API Website:
+
+https://fakestoreapi.com
+
+We will perform:
+
+Login API
+Get Products API
+Add Product API
+Load Testing
+Report Generation
+3. Project Folder Structure
+
+Create folder:
+
+JMeter-Mini-Project
+│
+├── users.csv
+├── results
+│   └── result.jtl
+├── reports
+└── Ecommerce_Project.jmx
+4. Create CSV File
+users.csv
+
+Create file:
+
+username,password
+mor_2314,83r5^_
+
+Save as:
+
+users.csv
+5. Open JMeter
+Step 1 – Create Test Plan
+
+Open JMeter.
+
+You will see:
+
+Test Plan
+
+Rename:
+
+E-Commerce API Testing
+6. Add Thread Group
+
+Right Click:
+
+Test Plan
+→ Add
+→ Threads (Users)
+→ Thread Group
+Configure:
+Setting	Value
+Number of Threads	10
+Ramp-Up Period	5
+Loop Count	5
+
+Meaning:
+
+10 users
+Start in 5 seconds
+Repeat 5 times
+7. Add HTTP Request Defaults
+
+Right Click Thread Group:
+
+Add
+→ Config Element
+→ HTTP Request Defaults
+Configure
+Field	Value
+Protocol	https
+Server Name	fakestoreapi.com
+8. Add HTTP Header Manager
+
+Right Click Thread Group:
+
+Add
+→ Config Element
+→ HTTP Header Manager
+Add Headers
+Name	Value
+Content-Type	application/json
+9. Add CSV Data Set Config
+
+Right Click Thread Group:
+
+Add
+→ Config Element
+→ CSV Data Set Config
+Configure
+Field	Value
+Filename	users.csv
+Variable Names	username,password
+Delimiter	,
+Recycle on EOF	True
+Stop thread on EOF	False
+10. Create Login API Request
+
+Right Click Thread Group:
+
+Add
+→ Sampler
+→ HTTP Request
+
+Rename:
+
+Login API
+Configure
+Field	Value
+Method	POST
+Path	/auth/login
+Body Data
+{
+  "username": "${username}",
+  "password": "${password}"
+}
+11. Add Response Assertion
+
+Right Click Login API:
+
+Add
+→ Assertions
+→ Response Assertion
+Configure
+Field	Value
+Response Field	Text Response
+Pattern Matching	Contains
+Pattern	token
+
+This checks whether login token exists.
+
+12. Add Get Products API
+
+Right Click Thread Group:
+
+Add
+→ Sampler
+→ HTTP Request
+
+Rename:
+
+Get Products API
+Configure
+Field	Value
+Method	GET
+Path	/products
+13. Add Add Product API
+
+Right Click Thread Group:
+
+Add
+→ Sampler
+→ HTTP Request
+
+Rename:
+
+Add Product API
+Configure
+Field	Value
+Method	POST
+Path	/products
+Body Data
+{
+  "title": "Test Product",
+  "price": 100,
+  "description": "JMeter Testing Product",
+  "image": "https://i.pravatar.cc",
+  "category": "electronics"
+}
+14. Add Timer
+
+Right Click Thread Group:
+
+Add
+→ Timer
+→ Constant Timer
+Configure
+Field	Value
+Thread Delay	1000
+
+Meaning:
+
+1 second delay between requests.
+15. Add Listeners
+View Results Tree
+
+Right Click Thread Group:
+
+Add
+→ Listener
+→ View Results Tree
+Summary Report
+
+Right Click Thread Group:
+
+Add
+→ Listener
+→ Summary Report
+Aggregate Report
+
+Right Click Thread Group:
+
+Add
+→ Listener
+→ Aggregate Report
+16. Save Project
+
+Click:
+
+File → Save
+
+Save as:
+
+Ecommerce_Project.jmx
+17. Run Project
+
+Click Green Start Button.
+
+JMeter will execute:
+
+Login API
+Product API
+Add Product API
+
+with multiple users.
+
+18. Check Results
+View Results Tree
+
+You can see:
+
+Request
+Response
+Status Code
+Response Time
+Aggregate Report
+
+You can see:
+
+Average Time
+Throughput
+Error %
+Min/Max
+19. Generate HTML Report
+Step 1 – Run in Non GUI Mode
+
+Open terminal inside JMeter bin folder.
+
+Run:
+
+jmeter -n -t Ecommerce_Project.jmx -l results/result.jtl
+Step 2 – Generate Report
+
+Run:
+
+jmeter -g results/result.jtl -o reports
+20. Open Report
+
+Open:
+
+reports/index.html
+
+You will see:
+
+Graphs
+Throughput
+Error Rate
+Response Time
+Performance Charts
+21. Important Interview Questions
+What is JMeter?
+
+Apache JMeter is an open-source tool used for:
+
+Load Testing
+Performance Testing
+API Testing
+What is Thread Group?
+
+Thread Group represents virtual users.
+
+Difference Between Load Testing and Stress Testing
+Load Testing	Stress Testing
+Normal traffic	Extreme traffic
+Checks performance	Checks breaking point
+What is Throughput?
+
+Number of requests processed per second/minute.
+
+What is Ramp-Up Period?
+
+Time taken to start all users.
+
+22. Bonus Advanced Tasks
+
+Try these:
+
+Task 1
+
+Increase users:
+
+Threads = 100
+Task 2
+
+Add Random Timer.
+
+Task 3
+
+Add JSON Extractor.
+
+Task 4
+
+Add Assertions.
+
+Task 5
+
+Integrate with Jenkins.
+
+23. Common Errors
+Error 1 – Java Not Found
+
+Fix:
+
+java -version
+
+Install Java properly.
+
+Error 2 – CSV File Not Found
+
+Use full path:
+
+C:/Users/YourName/Desktop/users.csv
+Error 3 – 404 Error
+
+Check:
+
+URL
+API path
+Method
+24. Mini Project Viva Questions
+Why do we use JMeter?
+What is Thread Group?
+What is Listener?
+What is Assertion?
+Difference between GUI and Non GUI mode?
+Why use CSV Data Set Config?
+What is Throughput?
+What is Load Testing?
+What is Stress Testing?
+What is Response Time?
+25. Final Output
+
+After completing this project you will know:
+
+✅ API Testing ✅ Load Testing ✅ Assertions ✅ CSV Parameterization ✅ Report Generation ✅ Real Project Structure ✅ Performance Testing Basics
+
+26. Recommended Practice APIs
+JSON Placeholder
+https://jsonplaceholder.typicode.com
+Fake Store API
+https://fakestoreapi.com
+ReqRes
+https://reqres.in
+27. Professional Resume Line
+Performed API Load Testing using Apache JMeter with Thread Groups, Assertions, CSV Parameterization, and HTML Reporting.
+28. Final Mini Project Flow
+Test Plan
+│
+├── Thread Group
+│   ├── HTTP Request Defaults
+│   ├── HTTP Header Manager
+│   ├── CSV Data Set Config
+│   ├── Login API
+│   │   └── Response Assertion
+│   ├── Get Products API
+│   ├── Add Product API
+│   ├── Constant Timer
+│   ├── View Results Tree
+│   ├── Summary Report
+│   └── Aggregate Report
+29. Pro Tip
+
+For large load tests:
+
+Use Non GUI mode
+Disable View Results Tree
+Use HTML reports
+Increase JVM memory
+30. Congratulations
+
+You have successfully completed a beginner-to-intermediate Apache JMeter Mini Project.
+
+I have created a complete beginner-to-intermediate Apache JMeter mini project guide with:
+
+Full project structure
+CSV file setup
+API testing
+Load testing
+Assertions
+Timers
+Listeners
+HTML report generation
+Commands
+Interview questions
+Common error fixes
+Complete step-by-step workflow
+
+The guide includes all required files, configurations, and execution steps for running a real mini project in JMeter.
