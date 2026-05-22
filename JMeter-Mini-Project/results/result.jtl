@@ -1,0 +1,400 @@
+1779432703206,809,Login API,400,Bad Request,Thread Group 1-1,text,false,"Test failed: text expected to contain /token
+/",2381,240,4,4,https://fakestoreapi.com/auth/login,808,0,406
+1779432703649,449,Login API,400,Bad Request,Thread Group 1-2,text,false,"Test failed: text expected to contain /token
+/",2381,238,4,4,https://fakestoreapi.com/auth/login,449,0,174
+1779432704150,473,Login API,400,Bad Request,Thread Group 1-3,text,false,"Test failed: text expected to contain /token
+/",2389,240,6,6,https://fakestoreapi.com/auth/login,473,0,192
+1779432704618,456,Login API,400,Bad Request,Thread Group 1-4,text,false,"Test failed: text expected to contain /token
+/",2387,238,6,6,https://fakestoreapi.com/auth/login,455,0,191
+1779432705035,279,Get Products API,200,OK,Thread Group 1-1,text,true,,11407,158,7,7,https://fakestoreapi.com/products,275,0,0
+1779432705100,262,Get Products API,200,OK,Thread Group 1-2,text,true,,11405,158,7,7,https://fakestoreapi.com/products,259,0,0
+1779432705131,442,Login API,400,Bad Request,Thread Group 1-5,text,false,"Test failed: text expected to contain /token
+/",2387,240,7,7,https://fakestoreapi.com/auth/login,441,0,181
+1779432705624,277,Get Products API,200,OK,Thread Group 1-3,text,true,,11409,158,8,8,https://fakestoreapi.com/products,273,0,0
+1779432705619,464,Login API,400,Bad Request,Thread Group 1-6,text,false,"Test failed: text expected to contain /token
+/",2385,238,8,8,https://fakestoreapi.com/auth/login,463,0,187
+1779432706076,270,Get Products API,200,OK,Thread Group 1-4,text,true,,11415,158,9,9,https://fakestoreapi.com/products,267,0,0
+1779432706119,446,Login API,400,Bad Request,Thread Group 1-7,text,false,"Test failed: text expected to contain /token
+/",2381,240,9,9,https://fakestoreapi.com/auth/login,445,0,180
+1779432706316,271,Add Product API,201,Created,Thread Group 1-1,text,true,,914,339,9,9,https://fakestoreapi.com/products,271,0,0
+1779432706363,271,Add Product API,201,Created,Thread Group 1-2,text,true,,904,339,10,10,https://fakestoreapi.com/products,271,0,0
+1779432706576,369,Get Products API,200,OK,Thread Group 1-5,text,true,,11407,158,10,10,https://fakestoreapi.com/products,366,0,0
+1779432706630,463,Login API,400,Bad Request,Thread Group 1-8,text,false,"Test failed: text expected to contain /token
+/",2379,238,10,10,https://fakestoreapi.com/auth/login,463,0,194
+1779432706903,275,Add Product API,201,Created,Thread Group 1-3,text,true,,910,339,10,10,https://fakestoreapi.com/products,275,0,0
+1779432707085,291,Get Products API,200,OK,Thread Group 1-6,text,true,,11401,158,10,10,https://fakestoreapi.com/products,288,0,0
+1779432707357,269,Add Product API,201,Created,Thread Group 1-4,text,true,,908,339,10,10,https://fakestoreapi.com/products,268,0,0
+1779432707139,512,Login API,400,Bad Request,Thread Group 1-9,text,false,"Test failed: text expected to contain /token
+/",2379,240,10,10,https://fakestoreapi.com/auth/login,512,0,222
+1779432707567,264,Get Products API,200,OK,Thread Group 1-7,text,true,,11411,158,10,10,https://fakestoreapi.com/products,261,0,0
+1779432707638,275,Login API,400,Bad Request,Thread Group 1-2,text,false,"Test failed: text expected to contain /token
+/",2383,238,10,10,https://fakestoreapi.com/auth/login,275,0,0
+1779432707588,330,Login API,400,Bad Request,Thread Group 1-1,text,false,"Test failed: text expected to contain /token
+/",2377,238,10,10,https://fakestoreapi.com/auth/login,330,0,0
+1779432707624,469,Login API,400,Bad Request,Thread Group 1-10,text,false,"Test failed: text expected to contain /token
+/",2381,240,10,10,https://fakestoreapi.com/auth/login,468,0,200
+1779432707950,262,Add Product API,201,Created,Thread Group 1-5,text,true,,912,339,10,10,https://fakestoreapi.com/products,262,0,0
+1779432708185,280,Login API,400,Bad Request,Thread Group 1-3,text,false,"Test failed: text expected to contain /token
+/",2385,240,10,10,https://fakestoreapi.com/auth/login,279,0,0
+1779432708106,361,Get Products API,200,OK,Thread Group 1-8,text,true,,11409,158,10,10,https://fakestoreapi.com/products,358,0,0
+1779432708388,257,Add Product API,201,Created,Thread Group 1-6,text,true,,910,339,10,10,https://fakestoreapi.com/products,256,0,0
+1779432708637,294,Login API,400,Bad Request,Thread Group 1-4,text,false,"Test failed: text expected to contain /token
+/",2391,238,10,10,https://fakestoreapi.com/auth/login,294,0,0
+1779432708653,321,Get Products API,200,OK,Thread Group 1-9,text,true,,11405,158,10,10,https://fakestoreapi.com/products,318,0,0
+1779432708841,255,Add Product API,201,Created,Thread Group 1-7,text,true,,906,339,10,10,https://fakestoreapi.com/products,255,0,0
+1779432708919,270,Get Products API,200,OK,Thread Group 1-2,text,true,,11409,158,10,10,https://fakestoreapi.com/products,267,0,0
+1779432708934,350,Get Products API,200,OK,Thread Group 1-1,text,true,,11407,158,10,10,https://fakestoreapi.com/products,345,0,0
+1779432709107,296,Get Products API,200,OK,Thread Group 1-10,text,true,,11409,158,10,10,https://fakestoreapi.com/products,294,0,0
+1779432709216,251,Login API,400,Bad Request,Thread Group 1-5,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,251,0,0
+1779432709469,265,Add Product API,201,Created,Thread Group 1-8,text,true,,908,339,10,10,https://fakestoreapi.com/products,265,0,0
+1779432709468,279,Get Products API,200,OK,Thread Group 1-3,text,true,,11409,158,10,10,https://fakestoreapi.com/products,275,0,0
+1779432709653,275,Login API,400,Bad Request,Thread Group 1-6,text,false,"Test failed: text expected to contain /token
+/",2381,238,10,10,https://fakestoreapi.com/auth/login,275,0,0
+1779432709934,305,Get Products API,200,OK,Thread Group 1-4,text,true,,11413,158,10,10,https://fakestoreapi.com/products,302,0,0
+1779432709982,303,Add Product API,201,Created,Thread Group 1-9,text,true,,912,339,10,10,https://fakestoreapi.com/products,302,0,0
+1779432710122,260,Login API,400,Bad Request,Thread Group 1-7,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,260,0,0
+1779432710200,270,Add Product API,201,Created,Thread Group 1-2,text,true,,914,339,10,10,https://fakestoreapi.com/products,270,0,0
+1779432710294,274,Add Product API,201,Created,Thread Group 1-1,text,true,,908,339,10,10,https://fakestoreapi.com/products,274,0,0
+1779432710419,265,Add Product API,201,Created,Thread Group 1-10,text,true,,908,339,10,10,https://fakestoreapi.com/products,265,0,0
+1779432710482,259,Get Products API,200,OK,Thread Group 1-5,text,true,,11409,158,10,10,https://fakestoreapi.com/products,255,0,0
+1779432710747,265,Login API,400,Bad Request,Thread Group 1-8,text,false,"Test failed: text expected to contain /token
+/",2389,238,10,10,https://fakestoreapi.com/auth/login,264,0,0
+1779432710748,274,Add Product API,201,Created,Thread Group 1-3,text,true,,916,339,10,10,https://fakestoreapi.com/products,273,0,0
+1779432710934,269,Get Products API,200,OK,Thread Group 1-6,text,true,,11409,158,10,10,https://fakestoreapi.com/products,266,0,0
+1779432711240,270,Add Product API,201,Created,Thread Group 1-4,text,true,,908,339,10,10,https://fakestoreapi.com/products,270,0,0
+1779432711287,262,Login API,400,Bad Request,Thread Group 1-9,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,261,0,0
+1779432711396,266,Get Products API,200,OK,Thread Group 1-7,text,true,,11411,158,10,10,https://fakestoreapi.com/products,262,0,0
+1779432711474,268,Login API,400,Bad Request,Thread Group 1-2,text,false,"Test failed: text expected to contain /token
+/",2387,238,10,10,https://fakestoreapi.com/auth/login,268,0,0
+1779432711572,273,Login API,400,Bad Request,Thread Group 1-1,text,false,"Test failed: text expected to contain /token
+/",2389,240,10,10,https://fakestoreapi.com/auth/login,273,0,0
+1779432711686,260,Login API,400,Bad Request,Thread Group 1-10,text,false,"Test failed: text expected to contain /token
+/",2377,238,10,10,https://fakestoreapi.com/auth/login,260,0,0
+1779432711747,263,Add Product API,201,Created,Thread Group 1-5,text,true,,910,339,10,10,https://fakestoreapi.com/products,263,0,0
+1779432712014,275,Get Products API,200,OK,Thread Group 1-8,text,true,,11413,158,10,10,https://fakestoreapi.com/products,272,0,0
+1779432712028,281,Login API,400,Bad Request,Thread Group 1-3,text,false,"Test failed: text expected to contain /token
+/",2381,240,10,10,https://fakestoreapi.com/auth/login,280,0,0
+1779432712216,351,Add Product API,201,Created,Thread Group 1-6,text,true,,916,339,10,10,https://fakestoreapi.com/products,351,0,0
+1779432712512,272,Login API,400,Bad Request,Thread Group 1-4,text,false,"Test failed: text expected to contain /token
+/",2377,238,10,10,https://fakestoreapi.com/auth/login,271,0,0
+1779432712559,281,Get Products API,200,OK,Thread Group 1-9,text,true,,11419,158,10,10,https://fakestoreapi.com/products,278,0,0
+1779432712668,380,Add Product API,201,Created,Thread Group 1-7,text,true,,908,339,10,10,https://fakestoreapi.com/products,380,0,0
+1779432712747,406,Get Products API,200,OK,Thread Group 1-2,text,true,,11415,158,10,10,https://fakestoreapi.com/products,403,0,0
+1779432712847,351,Get Products API,200,OK,Thread Group 1-1,text,true,,11405,158,10,10,https://fakestoreapi.com/products,349,0,0
+1779432712947,263,Get Products API,200,OK,Thread Group 1-10,text,true,,11405,158,10,10,https://fakestoreapi.com/products,259,0,0
+1779432713025,254,Login API,400,Bad Request,Thread Group 1-5,text,false,"Test failed: text expected to contain /token
+/",2381,240,10,10,https://fakestoreapi.com/auth/login,253,0,0
+1779432713293,269,Add Product API,201,Created,Thread Group 1-8,text,true,,902,339,10,10,https://fakestoreapi.com/products,269,0,0
+1779432713324,279,Get Products API,200,OK,Thread Group 1-3,text,true,,11407,158,10,10,https://fakestoreapi.com/products,276,0,0
+1779432713568,280,Login API,400,Bad Request,Thread Group 1-6,text,false,"Test failed: text expected to contain /token
+/",2387,238,10,10,https://fakestoreapi.com/auth/login,279,0,0
+1779432713840,315,Add Product API,201,Created,Thread Group 1-9,text,true,,910,339,10,10,https://fakestoreapi.com/products,315,0,0
+1779432713793,424,Get Products API,200,OK,Thread Group 1-4,text,true,,11409,158,10,10,https://fakestoreapi.com/products,421,0,0
+1779432714049,256,Login API,400,Bad Request,Thread Group 1-7,text,false,"Test failed: text expected to contain /token
+/",2385,240,10,10,https://fakestoreapi.com/auth/login,255,0,0
+1779432714167,268,Add Product API,201,Created,Thread Group 1-2,text,true,,908,339,10,10,https://fakestoreapi.com/products,268,0,0
+1779432714198,263,Add Product API,201,Created,Thread Group 1-1,text,true,,906,339,10,10,https://fakestoreapi.com/products,263,0,0
+1779432714215,302,Add Product API,201,Created,Thread Group 1-10,text,true,,904,339,10,10,https://fakestoreapi.com/products,302,0,0
+1779432714293,397,Get Products API,200,OK,Thread Group 1-5,text,true,,11403,158,10,10,https://fakestoreapi.com/products,394,0,0
+1779432714575,258,Login API,400,Bad Request,Thread Group 1-8,text,false,"Test failed: text expected to contain /token
+/",2375,238,10,10,https://fakestoreapi.com/auth/login,257,0,0
+1779432714606,274,Add Product API,201,Created,Thread Group 1-3,text,true,,910,339,10,10,https://fakestoreapi.com/products,274,0,0
+1779432714856,274,Get Products API,200,OK,Thread Group 1-6,text,true,,11413,158,10,10,https://fakestoreapi.com/products,272,0,0
+1779432715168,264,Login API,400,Bad Request,Thread Group 1-9,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,264,0,0
+1779432715230,365,Add Product API,201,Created,Thread Group 1-4,text,true,,910,339,10,10,https://fakestoreapi.com/products,364,0,0
+1779432715309,370,Get Products API,200,OK,Thread Group 1-7,text,true,,11407,158,10,10,https://fakestoreapi.com/products,367,0,0
+1779432715449,272,Login API,400,Bad Request,Thread Group 1-2,text,false,"Test failed: text expected to contain /token
+/",2387,238,10,10,https://fakestoreapi.com/auth/login,272,0,0
+1779432715465,277,Login API,400,Bad Request,Thread Group 1-1,text,false,"Test failed: text expected to contain /token
+/",2385,240,10,10,https://fakestoreapi.com/auth/login,277,0,0
+1779432715527,285,Login API,400,Bad Request,Thread Group 1-10,text,false,"Test failed: text expected to contain /token
+/",2377,238,10,10,https://fakestoreapi.com/auth/login,285,0,0
+1779432715699,350,Add Product API,201,Created,Thread Group 1-5,text,true,,912,339,10,10,https://fakestoreapi.com/products,350,0,0
+1779432715836,268,Get Products API,200,OK,Thread Group 1-8,text,true,,11407,158,10,10,https://fakestoreapi.com/products,265,0,0
+1779432715883,279,Login API,400,Bad Request,Thread Group 1-3,text,false,"Test failed: text expected to contain /token
+/",2379,240,10,10,https://fakestoreapi.com/auth/login,278,0,0
+1779432716137,268,Add Product API,201,Created,Thread Group 1-6,text,true,,912,339,10,10,https://fakestoreapi.com/products,267,0,0
+1779432716433,269,Get Products API,200,OK,Thread Group 1-9,text,true,,11403,158,10,10,https://fakestoreapi.com/products,265,0,0
+1779432716605,273,Login API,400,Bad Request,Thread Group 1-4,text,false,"Test failed: text expected to contain /token
+/",2383,238,10,10,https://fakestoreapi.com/auth/login,272,0,0
+1779432716684,256,Add Product API,201,Created,Thread Group 1-7,text,true,,912,339,10,10,https://fakestoreapi.com/products,256,0,0
+1779432716723,271,Get Products API,200,OK,Thread Group 1-2,text,true,,11407,158,10,10,https://fakestoreapi.com/products,268,0,0
+1779432716744,278,Get Products API,200,OK,Thread Group 1-1,text,true,,11407,158,10,10,https://fakestoreapi.com/products,276,0,0
+1779432716822,266,Get Products API,200,OK,Thread Group 1-10,text,true,,11413,158,10,10,https://fakestoreapi.com/products,263,0,0
+1779432717052,257,Login API,400,Bad Request,Thread Group 1-5,text,false,"Test failed: text expected to contain /token
+/",2385,240,10,10,https://fakestoreapi.com/auth/login,257,0,0
+1779432717106,266,Add Product API,201,Created,Thread Group 1-8,text,true,,910,339,10,10,https://fakestoreapi.com/products,265,0,0
+1779432717169,280,Get Products API,200,OK,Thread Group 1-3,text,true,,11411,158,10,10,https://fakestoreapi.com/products,277,0,0
+1779432717418,267,Login API,400,Bad Request,Thread Group 1-6,text,false,"Test failed: text expected to contain /token
+/",2377,238,10,10,https://fakestoreapi.com/auth/login,266,0,0
+1779432717730,328,Add Product API,201,Created,Thread Group 1-9,text,true,,906,339,10,10,https://fakestoreapi.com/products,328,0,0
+1779432717879,272,Get Products API,200,OK,Thread Group 1-4,text,true,,11409,158,10,10,https://fakestoreapi.com/products,270,0,0
+1779432717949,258,Login API,400,Bad Request,Thread Group 1-7,text,false,"Test failed: text expected to contain /token
+/",2381,240,10,10,https://fakestoreapi.com/auth/login,258,0,0
+1779432717995,269,Add Product API,201,Created,Thread Group 1-2,text,true,,910,339,10,10,https://fakestoreapi.com/products,269,0,0
+1779432718026,261,Add Product API,201,Created,Thread Group 1-1,text,true,,912,339,10,10,https://fakestoreapi.com/products,261,0,0
+1779432718089,260,Add Product API,201,Created,Thread Group 1-10,text,true,,912,339,10,10,https://fakestoreapi.com/products,260,0,0
+1779432718387,270,Login API,400,Bad Request,Thread Group 1-8,text,false,"Test failed: text expected to contain /token
+/",2385,238,10,10,https://fakestoreapi.com/auth/login,269,0,0
+1779432718324,387,Get Products API,200,OK,Thread Group 1-5,text,true,,11413,158,10,10,https://fakestoreapi.com/products,385,0,0
+1779432718451,274,Add Product API,201,Created,Thread Group 1-3,text,true,,904,339,10,10,https://fakestoreapi.com/products,274,0,0
+1779432718699,261,Get Products API,200,OK,Thread Group 1-6,text,true,,11403,158,10,10,https://fakestoreapi.com/products,259,0,0
+1779432719060,262,Login API,400,Bad Request,Thread Group 1-9,text,false,"Test failed: text expected to contain /token
+/",2381,240,10,10,https://fakestoreapi.com/auth/login,261,0,0
+1779432719153,261,Add Product API,201,Created,Thread Group 1-4,text,true,,916,339,10,10,https://fakestoreapi.com/products,261,0,0
+1779432719210,272,Get Products API,200,OK,Thread Group 1-7,text,true,,11409,158,10,10,https://fakestoreapi.com/products,270,0,0
+1779432719265,262,Login API,400,Bad Request,Thread Group 1-2,text,false,"Test failed: text expected to contain /token
+/",2387,238,10,10,https://fakestoreapi.com/auth/login,262,0,0
+1779432719289,297,Login API,400,Bad Request,Thread Group 1-1,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,296,0,0
+1779432719352,268,Login API,400,Bad Request,Thread Group 1-10,text,false,"Test failed: text expected to contain /token
+/",2379,238,10,10,https://fakestoreapi.com/auth/login,268,0,0
+1779432719668,271,Get Products API,200,OK,Thread Group 1-8,text,true,,11411,158,10,10,https://fakestoreapi.com/products,269,0,0
+1779432719716,257,Add Product API,201,Created,Thread Group 1-5,text,true,,914,339,10,10,https://fakestoreapi.com/products,257,0,0
+1779432719728,276,Login API,400,Bad Request,Thread Group 1-3,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,276,0,0
+1779432719962,269,Add Product API,201,Created,Thread Group 1-6,text,true,,904,339,10,10,https://fakestoreapi.com/products,268,0,0
+1779432720325,266,Get Products API,200,OK,Thread Group 1-9,text,true,,11413,158,10,10,https://fakestoreapi.com/products,265,0,0
+1779432720418,271,Login API,400,Bad Request,Thread Group 1-4,text,false,"Test failed: text expected to contain /token
+/",2385,238,10,10,https://fakestoreapi.com/auth/login,271,0,0
+1779432720484,292,Add Product API,201,Created,Thread Group 1-7,text,true,,914,339,10,10,https://fakestoreapi.com/products,292,0,0
+1779432720541,289,Get Products API,200,OK,Thread Group 1-2,text,true,,11407,158,10,10,https://fakestoreapi.com/products,285,0,0
+1779432720588,286,Get Products API,200,OK,Thread Group 1-1,text,true,,11411,158,10,10,https://fakestoreapi.com/products,283,0,0
+1779432720635,270,Get Products API,200,OK,Thread Group 1-10,text,true,,11407,158,10,10,https://fakestoreapi.com/products,268,0,0
+1779432720950,257,Add Product API,201,Created,Thread Group 1-8,text,true,,908,339,10,10,https://fakestoreapi.com/products,257,0,0
+1779432720981,266,Login API,400,Bad Request,Thread Group 1-5,text,false,"Test failed: text expected to contain /token
+/",2384,240,10,10,https://fakestoreapi.com/auth/login,266,0,0
+1779432721012,372,Get Products API,200,OK,Thread Group 1-3,text,true,,11417,158,10,10,https://fakestoreapi.com/products,369,0,0
+1779432721231,258,Login API,400,Bad Request,Thread Group 1-6,text,false,"Test failed: text expected to contain /token
+/",2383,238,10,10,https://fakestoreapi.com/auth/login,258,0,0
+1779432721593,284,Add Product API,201,Created,Thread Group 1-9,text,true,,912,339,10,10,https://fakestoreapi.com/products,284,0,0
+1779432721699,275,Get Products API,200,OK,Thread Group 1-4,text,true,,11411,158,10,10,https://fakestoreapi.com/products,273,0,0
+1779432721778,257,Login API,400,Bad Request,Thread Group 1-7,text,false,"Test failed: text expected to contain /token
+/",2381,240,10,10,https://fakestoreapi.com/auth/login,257,0,0
+1779432721841,272,Add Product API,201,Created,Thread Group 1-2,text,true,,910,339,10,10,https://fakestoreapi.com/products,272,0,0
+1779432721887,261,Add Product API,201,Created,Thread Group 1-1,text,true,,910,339,9,9,https://fakestoreapi.com/products,261,0,0
+1779432721918,266,Add Product API,201,Created,Thread Group 1-10,text,true,,910,339,8,8,https://fakestoreapi.com/products,266,0,0
+1779432722216,269,Login API,400,Bad Request,Thread Group 1-8,text,false,"Test failed: text expected to contain /token
+/",2379,238,8,8,https://fakestoreapi.com/auth/login,269,0,0
+1779432722262,253,Get Products API,200,OK,Thread Group 1-5,text,true,,11419,158,8,8,https://fakestoreapi.com/products,251,0,0
+1779432722386,275,Add Product API,201,Created,Thread Group 1-3,text,true,,914,339,8,8,https://fakestoreapi.com/products,275,0,0
+1779432722495,258,Get Products API,200,OK,Thread Group 1-6,text,true,,11409,158,7,7,https://fakestoreapi.com/products,256,0,0
+1779432722887,307,Login API,400,Bad Request,Thread Group 1-9,text,false,"Test failed: text expected to contain /token
+/",2387,240,7,7,https://fakestoreapi.com/auth/login,306,0,0
+1779432722980,275,Add Product API,201,Created,Thread Group 1-4,text,true,,906,339,7,7,https://fakestoreapi.com/products,275,0,0
+1779432723043,331,Get Products API,200,OK,Thread Group 1-7,text,true,,11413,158,6,6,https://fakestoreapi.com/products,330,0,0
+1779432723191,268,Login API,400,Bad Request,Thread Group 1-10,text,false,"Test failed: text expected to contain /token
+/",2389,238,6,6,https://fakestoreapi.com/auth/login,268,0,0
+1779432723488,271,Get Products API,200,OK,Thread Group 1-8,text,true,,11407,158,6,6,https://fakestoreapi.com/products,269,0,0
+1779432723528,254,Add Product API,201,Created,Thread Group 1-5,text,true,,902,339,6,6,https://fakestoreapi.com/products,254,0,0
+1779432723756,271,Add Product API,201,Created,Thread Group 1-6,text,true,,910,339,5,5,https://fakestoreapi.com/products,271,0,0
+1779432724201,367,Get Products API,200,OK,Thread Group 1-9,text,true,,11413,158,4,4,https://fakestoreapi.com/products,363,0,0
+1779432724388,264,Add Product API,201,Created,Thread Group 1-7,text,true,,912,339,4,4,https://fakestoreapi.com/products,264,0,0
+1779432724466,400,Get Products API,200,OK,Thread Group 1-10,text,true,,11413,158,3,3,https://fakestoreapi.com/products,399,0,0
+1779432724763,268,Add Product API,201,Created,Thread Group 1-8,text,true,,910,339,3,3,https://fakestoreapi.com/products,268,0,0
+1779432725570,287,Add Product API,201,Created,Thread Group 1-9,text,true,,904,339,2,2,https://fakestoreapi.com/products,286,0,0
+1779432725872,260,Add Product API,201,Created,Thread Group 1-10,text,true,,916,339,1,1,https://fakestoreapi.com/products,260,0,0
+1779432856165,655,Login API,400,Bad Request,Thread Group 1-1,text,false,"Test failed: text expected to contain /token
+/",2382,240,4,4,https://fakestoreapi.com/auth/login,654,0,385
+1779432856585,434,Login API,400,Bad Request,Thread Group 1-2,text,false,"Test failed: text expected to contain /token
+/",2397,238,4,4,https://fakestoreapi.com/auth/login,433,0,173
+1779432857086,640,Login API,400,Bad Request,Thread Group 1-3,text,false,"Test failed: text expected to contain /token
+/",2385,240,6,6,https://fakestoreapi.com/auth/login,640,0,202
+1779432857557,537,Login API,400,Bad Request,Thread Group 1-4,text,false,"Test failed: text expected to contain /token
+/",2385,238,7,7,https://fakestoreapi.com/auth/login,537,0,191
+1779432857830,317,Get Products API,200,OK,Thread Group 1-1,text,true,,11413,158,7,7,https://fakestoreapi.com/products,314,0,0
+1779432858020,259,Get Products API,200,OK,Thread Group 1-2,text,true,,11409,158,7,7,https://fakestoreapi.com/products,256,0,0
+1779432858068,544,Login API,400,Bad Request,Thread Group 1-5,text,false,"Test failed: text expected to contain /token
+/",2387,240,8,8,https://fakestoreapi.com/auth/login,544,0,163
+1779432858556,491,Login API,400,Bad Request,Thread Group 1-6,text,false,"Test failed: text expected to contain /token
+/",2386,238,8,8,https://fakestoreapi.com/auth/login,491,0,186
+1779432858729,485,Get Products API,200,OK,Thread Group 1-3,text,true,,11405,158,9,9,https://fakestoreapi.com/products,483,0,0
+1779432859096,286,Get Products API,200,OK,Thread Group 1-4,text,true,,11413,158,9,9,https://fakestoreapi.com/products,282,0,0
+1779432859150,266,Add Product API,201,Created,Thread Group 1-1,text,true,,914,339,9,9,https://fakestoreapi.com/products,266,0,0
+1779432859067,439,Login API,400,Bad Request,Thread Group 1-7,text,false,"Test failed: text expected to contain /token
+/",2385,240,9,9,https://fakestoreapi.com/auth/login,438,0,170
+1779432859283,259,Add Product API,201,Created,Thread Group 1-2,text,true,,914,339,9,9,https://fakestoreapi.com/products,259,0,0
+1779432859619,266,Get Products API,200,OK,Thread Group 1-5,text,true,,11409,158,10,10,https://fakestoreapi.com/products,264,0,0
+1779432859553,436,Login API,400,Bad Request,Thread Group 1-8,text,false,"Test failed: text expected to contain /token
+/",2381,238,10,10,https://fakestoreapi.com/auth/login,435,0,171
+1779432860054,309,Get Products API,200,OK,Thread Group 1-6,text,true,,11409,158,10,10,https://fakestoreapi.com/products,306,0,0
+1779432860215,296,Add Product API,201,Created,Thread Group 1-3,text,true,,928,339,10,10,https://fakestoreapi.com/products,296,0,0
+1779432860054,460,Login API,400,Bad Request,Thread Group 1-9,text,false,"Test failed: text expected to contain /token
+/",2385,240,10,10,https://fakestoreapi.com/auth/login,460,0,192
+1779432860388,278,Add Product API,201,Created,Thread Group 1-4,text,true,,914,339,10,10,https://fakestoreapi.com/products,278,0,0
+1779432860419,300,Login API,400,Bad Request,Thread Group 1-1,text,false,"Test failed: text expected to contain /token
+/",2381,238,10,10,https://fakestoreapi.com/auth/login,300,0,0
+1779432860511,263,Get Products API,200,OK,Thread Group 1-7,text,true,,11407,158,10,10,https://fakestoreapi.com/products,260,0,0
+1779432860543,254,Login API,400,Bad Request,Thread Group 1-2,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,254,0,0
+1779432860560,426,Login API,400,Bad Request,Thread Group 1-10,text,false,"Test failed: text expected to contain /token
+/",2385,238,10,10,https://fakestoreapi.com/auth/login,426,0,166
+1779432860889,263,Add Product API,201,Created,Thread Group 1-5,text,true,,910,339,10,10,https://fakestoreapi.com/products,263,0,0
+1779432861004,278,Get Products API,200,OK,Thread Group 1-8,text,true,,11411,158,10,10,https://fakestoreapi.com/products,277,0,0
+1779432861370,276,Add Product API,201,Created,Thread Group 1-6,text,true,,914,339,10,10,https://fakestoreapi.com/products,276,0,0
+1779432861517,278,Get Products API,200,OK,Thread Group 1-9,text,true,,11423,158,10,10,https://fakestoreapi.com/products,275,0,0
+1779432861515,320,Login API,400,Bad Request,Thread Group 1-3,text,false,"Test failed: text expected to contain /token
+/",2375,240,10,10,https://fakestoreapi.com/auth/login,319,0,0
+1779432861669,270,Login API,400,Bad Request,Thread Group 1-4,text,false,"Test failed: text expected to contain /token
+/",2383,238,10,10,https://fakestoreapi.com/auth/login,270,0,0
+1779432861721,315,Get Products API,200,OK,Thread Group 1-1,text,true,,11409,158,10,10,https://fakestoreapi.com/products,311,0,0
+1779432861787,266,Add Product API,201,Created,Thread Group 1-7,text,true,,912,339,10,10,https://fakestoreapi.com/products,266,0,0
+1779432861802,262,Get Products API,200,OK,Thread Group 1-2,text,true,,11417,158,10,10,https://fakestoreapi.com/products,260,0,0
+1779432862004,257,Get Products API,200,OK,Thread Group 1-10,text,true,,11413,158,10,10,https://fakestoreapi.com/products,255,0,0
+1779432862154,265,Login API,400,Bad Request,Thread Group 1-5,text,false,"Test failed: text expected to contain /token
+/",2377,240,10,10,https://fakestoreapi.com/auth/login,265,0,0
+1779432862287,264,Add Product API,201,Created,Thread Group 1-8,text,true,,904,339,10,10,https://fakestoreapi.com/products,264,0,0
+1779432862647,350,Login API,400,Bad Request,Thread Group 1-6,text,false,"Test failed: text expected to contain /token
+/",2387,238,10,10,https://fakestoreapi.com/auth/login,350,0,0
+1779432862805,263,Add Product API,201,Created,Thread Group 1-9,text,true,,914,339,10,10,https://fakestoreapi.com/products,263,0,0
+1779432862839,349,Get Products API,200,OK,Thread Group 1-3,text,true,,11405,158,10,10,https://fakestoreapi.com/products,346,0,0
+1779432862955,317,Get Products API,200,OK,Thread Group 1-4,text,true,,11411,158,10,10,https://fakestoreapi.com/products,314,0,0
+1779432863040,267,Add Product API,201,Created,Thread Group 1-1,text,true,,908,339,10,10,https://fakestoreapi.com/products,267,0,0
+1779432863071,252,Add Product API,201,Created,Thread Group 1-2,text,true,,908,339,10,10,https://fakestoreapi.com/products,252,0,0
+1779432863054,272,Login API,400,Bad Request,Thread Group 1-7,text,false,"Test failed: text expected to contain /token
+/",2379,240,10,10,https://fakestoreapi.com/auth/login,272,0,0
+1779432863263,251,Add Product API,201,Created,Thread Group 1-10,text,true,,910,339,10,10,https://fakestoreapi.com/products,251,0,0
+1779432863421,268,Get Products API,200,OK,Thread Group 1-5,text,true,,11413,158,10,10,https://fakestoreapi.com/products,265,0,0
+1779432863553,264,Login API,400,Bad Request,Thread Group 1-8,text,false,"Test failed: text expected to contain /token
+/",2381,238,10,10,https://fakestoreapi.com/auth/login,263,0,0
+1779432864005,310,Get Products API,200,OK,Thread Group 1-6,text,true,,11405,158,10,10,https://fakestoreapi.com/products,305,0,0
+1779432864070,264,Login API,400,Bad Request,Thread Group 1-9,text,false,"Test failed: text expected to contain /token
+/",2387,240,10,10,https://fakestoreapi.com/auth/login,264,0,0
+1779432864199,338,Add Product API,201,Created,Thread Group 1-3,text,true,,912,339,10,10,https://fakestoreapi.com/products,338,0,0
+1779432864310,260,Login API,400,Bad Request,Thread Group 1-1,text,false,"Test failed: text expected to contain /token
+/",2379,238,10,10,https://fakestoreapi.com/auth/login,260,0,0
+1779432864325,262,Login API,400,Bad Request,Thread Group 1-2,text,false,"Test failed: text expected to contain /token
+/",2381,240,10,10,https://fakestoreapi.com/auth/login,262,0,0
+1779432864327,262,Get Products API,200,OK,Thread Group 1-7,text,true,,11419,158,10,10,https://fakestoreapi.com/products,259,0,0
+1779432864278,328,Add Product API,201,Created,Thread Group 1-4,text,true,,906,339,10,10,https://fakestoreapi.com/products,328,0,0
+1779432864515,256,Login API,400,Bad Request,Thread Group 1-10,text,false,"Test failed: text expected to contain /token
+/",2391,238,10,10,https://fakestoreapi.com/auth/login,256,0,0
+1779432864704,335,Add Product API,201,Created,Thread Group 1-5,text,true,,906,339,10,10,https://fakestoreapi.com/products,335,0,0
+1779432864823,267,Get Products API,200,OK,Thread Group 1-8,text,true,,11405,158,10,10,https://fakestoreapi.com/products,264,0,0
+1779432865323,285,Add Product API,201,Created,Thread Group 1-6,text,true,,912,339,10,10,https://fakestoreapi.com/products,285,0,0
+1779432865339,369,Get Products API,200,OK,Thread Group 1-9,text,true,,11407,158,10,10,https://fakestoreapi.com/products,364,0,0
+1779432865604,261,Add Product API,201,Created,Thread Group 1-7,text,true,,912,339,10,10,https://fakestoreapi.com/products,261,0,0
+1779432865540,339,Login API,400,Bad Request,Thread Group 1-3,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,338,0,0
+1779432865620,332,Login API,400,Bad Request,Thread Group 1-4,text,false,"Test failed: text expected to contain /token
+/",2387,238,10,10,https://fakestoreapi.com/auth/login,332,0,0
+1779432865589,393,Get Products API,200,OK,Thread Group 1-2,text,true,,11413,158,10,10,https://fakestoreapi.com/products,388,0,0
+1779432865572,429,Get Products API,200,OK,Thread Group 1-1,text,true,,11409,158,10,10,https://fakestoreapi.com/products,426,0,0
+1779432865776,355,Get Products API,200,OK,Thread Group 1-10,text,true,,11407,158,10,10,https://fakestoreapi.com/products,352,0,0
+1779432866047,264,Login API,400,Bad Request,Thread Group 1-5,text,false,"Test failed: text expected to contain /token
+/",2381,240,10,10,https://fakestoreapi.com/auth/login,264,0,0
+1779432866093,262,Add Product API,201,Created,Thread Group 1-8,text,true,,910,339,10,10,https://fakestoreapi.com/products,262,0,0
+1779432866609,283,Login API,400,Bad Request,Thread Group 1-6,text,false,"Test failed: text expected to contain /token
+/",2383,238,10,10,https://fakestoreapi.com/auth/login,282,0,0
+1779432866722,274,Add Product API,201,Created,Thread Group 1-9,text,true,,906,339,10,10,https://fakestoreapi.com/products,274,0,0
+1779432866874,266,Login API,400,Bad Request,Thread Group 1-7,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,266,0,0
+1779432866983,255,Add Product API,201,Created,Thread Group 1-2,text,true,,908,339,10,10,https://fakestoreapi.com/products,255,0,0
+1779432867002,260,Add Product API,201,Created,Thread Group 1-1,text,true,,906,339,10,10,https://fakestoreapi.com/products,260,0,0
+1779432866966,319,Get Products API,200,OK,Thread Group 1-4,text,true,,11413,158,10,10,https://fakestoreapi.com/products,315,0,0
+1779432866892,450,Get Products API,200,OK,Thread Group 1-3,text,true,,11409,158,10,10,https://fakestoreapi.com/products,448,0,0
+1779432867138,254,Add Product API,201,Created,Thread Group 1-10,text,true,,918,339,10,10,https://fakestoreapi.com/products,254,0,0
+1779432867325,266,Get Products API,200,OK,Thread Group 1-5,text,true,,11407,158,10,10,https://fakestoreapi.com/products,263,0,0
+1779432867356,266,Login API,400,Bad Request,Thread Group 1-8,text,false,"Test failed: text expected to contain /token
+/",2387,238,10,10,https://fakestoreapi.com/auth/login,266,0,0
+1779432867894,269,Get Products API,200,OK,Thread Group 1-6,text,true,,11403,158,10,10,https://fakestoreapi.com/products,266,0,0
+1779432868000,274,Login API,400,Bad Request,Thread Group 1-9,text,false,"Test failed: text expected to contain /token
+/",2381,240,10,10,https://fakestoreapi.com/auth/login,274,0,0
+1779432868142,289,Get Products API,200,OK,Thread Group 1-7,text,true,,11405,158,10,10,https://fakestoreapi.com/products,286,0,0
+1779432868240,258,Login API,400,Bad Request,Thread Group 1-2,text,false,"Test failed: text expected to contain /token
+/",2381,238,10,10,https://fakestoreapi.com/auth/login,258,0,0
+1779432868276,262,Login API,400,Bad Request,Thread Group 1-1,text,false,"Test failed: text expected to contain /token
+/",2385,240,10,10,https://fakestoreapi.com/auth/login,261,0,0
+1779432868291,291,Add Product API,201,Created,Thread Group 1-4,text,true,,916,339,10,10,https://fakestoreapi.com/products,291,0,0
+1779432868346,305,Add Product API,201,Created,Thread Group 1-3,text,true,,918,339,10,10,https://fakestoreapi.com/products,304,0,0
+1779432868394,339,Login API,400,Bad Request,Thread Group 1-10,text,false,"Test failed: text expected to contain /token
+/",2383,238,10,10,https://fakestoreapi.com/auth/login,338,0,0
+1779432868593,265,Add Product API,201,Created,Thread Group 1-5,text,true,,914,339,10,10,https://fakestoreapi.com/products,265,0,0
+1779432868627,267,Get Products API,200,OK,Thread Group 1-8,text,true,,11409,158,10,10,https://fakestoreapi.com/products,264,0,0
+1779432869175,266,Add Product API,201,Created,Thread Group 1-6,text,true,,912,339,10,10,https://fakestoreapi.com/products,266,0,0
+1779432869279,269,Get Products API,200,OK,Thread Group 1-9,text,true,,11405,158,10,10,https://fakestoreapi.com/products,265,0,0
+1779432869442,296,Add Product API,201,Created,Thread Group 1-7,text,true,,910,339,10,10,https://fakestoreapi.com/products,296,0,0
+1779432869508,257,Get Products API,200,OK,Thread Group 1-2,text,true,,11407,158,10,10,https://fakestoreapi.com/products,255,0,0
+1779432869586,270,Login API,400,Bad Request,Thread Group 1-4,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,270,0,0
+1779432869653,274,Login API,400,Bad Request,Thread Group 1-3,text,false,"Test failed: text expected to contain /token
+/",2383,238,10,10,https://fakestoreapi.com/auth/login,274,0,0
+1779432869539,393,Get Products API,200,OK,Thread Group 1-1,text,true,,11407,158,10,10,https://fakestoreapi.com/products,392,0,0
+1779432869746,261,Get Products API,200,OK,Thread Group 1-10,text,true,,11423,158,10,10,https://fakestoreapi.com/products,256,0,0
+1779432869873,264,Login API,400,Bad Request,Thread Group 1-5,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,264,0,0
+1779432869894,262,Add Product API,201,Created,Thread Group 1-8,text,true,,908,339,10,10,https://fakestoreapi.com/products,262,0,0
+1779432870442,272,Login API,400,Bad Request,Thread Group 1-6,text,false,"Test failed: text expected to contain /token
+/",2379,238,10,10,https://fakestoreapi.com/auth/login,272,0,0
+1779432870560,263,Add Product API,201,Created,Thread Group 1-9,text,true,,910,339,10,10,https://fakestoreapi.com/products,262,0,0
+1779432870741,258,Login API,400,Bad Request,Thread Group 1-7,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,258,0,0
+1779432870776,258,Add Product API,201,Created,Thread Group 1-2,text,true,,908,339,10,10,https://fakestoreapi.com/products,258,0,0
+1779432870859,275,Get Products API,200,OK,Thread Group 1-4,text,true,,11413,158,10,10,https://fakestoreapi.com/products,272,0,0
+1779432870942,258,Add Product API,201,Created,Thread Group 1-1,text,true,,906,339,10,10,https://fakestoreapi.com/products,258,0,0
+1779432871013,267,Add Product API,201,Created,Thread Group 1-10,text,true,,908,339,10,10,https://fakestoreapi.com/products,267,0,0
+1779432870942,340,Get Products API,200,OK,Thread Group 1-3,text,true,,11407,158,10,10,https://fakestoreapi.com/products,337,0,0
+1779432871139,264,Get Products API,200,OK,Thread Group 1-5,text,true,,11409,158,10,10,https://fakestoreapi.com/products,262,0,0
+1779432871158,263,Login API,400,Bad Request,Thread Group 1-8,text,false,"Test failed: text expected to contain /token
+/",2387,238,10,10,https://fakestoreapi.com/auth/login,262,0,0
+1779432871716,273,Get Products API,200,OK,Thread Group 1-6,text,true,,11415,158,10,10,https://fakestoreapi.com/products,270,0,0
+1779432871827,427,Login API,400,Bad Request,Thread Group 1-9,text,false,"Test failed: text expected to contain /token
+/",2383,240,10,10,https://fakestoreapi.com/auth/login,427,0,0
+1779432872038,272,Login API,400,Bad Request,Thread Group 1-2,text,false,"Test failed: text expected to contain /token
+/",2377,238,10,10,https://fakestoreapi.com/auth/login,272,0,0
+1779432872006,330,Get Products API,200,OK,Thread Group 1-7,text,true,,11405,158,10,10,https://fakestoreapi.com/products,328,0,0
+1779432872137,267,Add Product API,201,Created,Thread Group 1-4,text,true,,906,339,10,10,https://fakestoreapi.com/products,267,0,0
+1779432872216,259,Login API,400,Bad Request,Thread Group 1-1,text,false,"Test failed: text expected to contain /token
+/",2385,240,10,10,https://fakestoreapi.com/auth/login,258,0,0
+1779432872296,263,Login API,400,Bad Request,Thread Group 1-10,text,false,"Test failed: text expected to contain /token
+/",2381,238,10,10,https://fakestoreapi.com/auth/login,263,0,0
+1779432872295,282,Add Product API,201,Created,Thread Group 1-3,text,true,,912,339,10,10,https://fakestoreapi.com/products,282,0,0
+1779432872420,262,Add Product API,201,Created,Thread Group 1-5,text,true,,920,339,10,10,https://fakestoreapi.com/products,262,0,0
+1779432872435,292,Get Products API,200,OK,Thread Group 1-8,text,true,,11407,158,10,10,https://fakestoreapi.com/products,290,0,0
+1779432872990,270,Add Product API,201,Created,Thread Group 1-6,text,true,,912,339,10,10,https://fakestoreapi.com/products,270,0,0
+1779432873312,269,Get Products API,200,OK,Thread Group 1-2,text,true,,11405,158,10,10,https://fakestoreapi.com/products,265,0,0
+1779432873343,261,Add Product API,201,Created,Thread Group 1-7,text,true,,916,339,10,10,https://fakestoreapi.com/products,261,0,0
+1779432873263,389,Get Products API,200,OK,Thread Group 1-9,text,true,,11415,158,10,10,https://fakestoreapi.com/products,387,0,0
+1779432873406,270,Login API,400,Bad Request,Thread Group 1-4,text,false,"Test failed: text expected to contain /token
+/",2387,240,10,10,https://fakestoreapi.com/auth/login,270,0,0
+1779432873579,281,Login API,400,Bad Request,Thread Group 1-3,text,false,"Test failed: text expected to contain /token
+/",2385,238,10,10,https://fakestoreapi.com/auth/login,281,0,0
+1779432873482,426,Get Products API,200,OK,Thread Group 1-1,text,true,,11403,158,10,10,https://fakestoreapi.com/products,423,0,0
+1779432873560,348,Get Products API,200,OK,Thread Group 1-10,text,true,,11411,158,10,10,https://fakestoreapi.com/products,346,0,0
+1779432873728,275,Add Product API,201,Created,Thread Group 1-8,text,true,,908,339,10,10,https://fakestoreapi.com/products,275,0,0
+1779432873701,333,Login API,400,Bad Request,Thread Group 1-5,text,false,"Test failed: text expected to contain /token
+/",2381,240,10,10,https://fakestoreapi.com/auth/login,332,0,0
+1779432874263,269,Login API,400,Bad Request,Thread Group 1-6,text,false,"Test failed: text expected to contain /token
+/",2385,238,10,10,https://fakestoreapi.com/auth/login,269,0,0
+1779432874591,256,Add Product API,201,Created,Thread Group 1-2,text,true,,908,339,10,10,https://fakestoreapi.com/products,256,0,0
+1779432874606,263,Login API,400,Bad Request,Thread Group 1-7,text,false,"Test failed: text expected to contain /token
+/",2387,240,9,9,https://fakestoreapi.com/auth/login,263,0,0
+1779432874654,276,Add Product API,201,Created,Thread Group 1-9,text,true,,920,339,9,9,https://fakestoreapi.com/products,276,0,0
+1779432874686,273,Get Products API,200,OK,Thread Group 1-4,text,true,,11409,158,9,9,https://fakestoreapi.com/products,270,0,0
+1779432874861,288,Get Products API,200,OK,Thread Group 1-3,text,true,,11405,158,9,9,https://fakestoreapi.com/products,279,0,0
+1779432874919,260,Add Product API,201,Created,Thread Group 1-10,text,true,,912,339,9,9,https://fakestoreapi.com/products,260,0,0
+1779432874919,262,Add Product API,201,Created,Thread Group 1-1,text,true,,912,339,9,9,https://fakestoreapi.com/products,262,0,0
+1779432875013,264,Login API,400,Bad Request,Thread Group 1-8,text,false,"Test failed: text expected to contain /token
+/",2381,238,8,8,https://fakestoreapi.com/auth/login,264,0,0
+1779432875044,265,Get Products API,200,OK,Thread Group 1-5,text,true,,11407,158,8,8,https://fakestoreapi.com/products,263,0,0
+1779432875544,273,Get Products API,200,OK,Thread Group 1-6,text,true,,11407,158,8,8,https://fakestoreapi.com/products,270,0,0
+1779432875873,304,Get Products API,200,OK,Thread Group 1-7,text,true,,11411,158,8,8,https://fakestoreapi.com/products,302,0,0
+1779432875933,275,Login API,400,Bad Request,Thread Group 1-9,text,false,"Test failed: text expected to contain /token
+/",2377,240,8,8,https://fakestoreapi.com/auth/login,275,0,0
+1779432875964,300,Add Product API,201,Created,Thread Group 1-4,text,true,,910,339,8,8,https://fakestoreapi.com/products,300,0,0
+1779432876152,294,Add Product API,201,Created,Thread Group 1-3,text,true,,912,339,7,7,https://fakestoreapi.com/products,294,0,0
+1779432876280,266,Get Products API,200,OK,Thread Group 1-8,text,true,,11407,158,6,6,https://fakestoreapi.com/products,263,0,0
+1779432876310,261,Add Product API,201,Created,Thread Group 1-5,text,true,,904,339,6,6,https://fakestoreapi.com/products,261,0,0
+1779432876183,388,Login API,400,Bad Request,Thread Group 1-10,text,false,"Test failed: text expected to contain /token
+/",2383,238,5,5,https://fakestoreapi.com/auth/login,388,0,0
+1779432876818,280,Add Product API,201,Created,Thread Group 1-6,text,true,,904,339,5,5,https://fakestoreapi.com/products,280,0,0
+1779432877179,262,Add Product API,201,Created,Thread Group 1-7,text,true,,906,339,4,4,https://fakestoreapi.com/products,262,0,0
+1779432877216,435,Get Products API,200,OK,Thread Group 1-9,text,true,,11409,158,3,3,https://fakestoreapi.com/products,431,0,0
+1779432877548,262,Add Product API,201,Created,Thread Group 1-8,text,true,,906,339,3,3,https://fakestoreapi.com/products,262,0,0
+1779432877573,353,Get Products API,200,OK,Thread Group 1-10,text,true,,11409,158,2,2,https://fakestoreapi.com/products,351,0,0
+1779432878653,263,Add Product API,201,Created,Thread Group 1-9,text,true,,910,339,2,2,https://fakestoreapi.com/products,263,0,0
+1779432878927,267,Add Product API,201,Created,Thread Group 1-10,text,true,,910,339,1,1,https://fakestoreapi.com/products,267,0,0
